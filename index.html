@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Big Jan Games - Bomberrage</title>
+    <title>Big Jan Games - Indie Game Studio</title>
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/shared-content.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap');
         
@@ -55,7 +57,7 @@
             <div class="studio-name text-2xl font-bold text-orange-400">Big Jan Games</div>
             <div class="hidden md:flex space-x-8">
                 <a href="#home" class="hover:text-orange-400 transition-colors">Home</a>
-                <a href="#games" class="hover:text-orange-400 transition-colors">Games</a>
+                <a href="/bomberrage" class="hover:text-orange-400 transition-colors">Bomberrage</a>
                 <a href="#about" class="hover:text-orange-400 transition-colors">About</a>
                 <a href="#contact" class="hover:text-orange-400 transition-colors">Contact</a>
             </div>
@@ -76,127 +78,67 @@
                     💥
                 </div>
             </div>
-            <h1 class="game-title text-6xl md:text-8xl font-black mb-6">BOMBERRAGE</h1>
+            <h1 class="game-title text-6xl md:text-8xl font-black mb-6">BIG JAN GAMES</h1>
             <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                Experience explosive action in the ultimate bombing adventure. Strategy meets chaos in this thrilling game from Big Jan Games.
+                Independent game studio creating explosive entertainment experiences. Innovative gameplay mechanics and thrilling action for gamers worldwide.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all hover-glow">
-                    Play Now
-                </button>
-                <button class="border-2 border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all">
-                    Watch Trailer
-                </button>
+                <a href="/bomberrage" class="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all hover-glow text-center flex items-center justify-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    Play Bomberrage
+                </a>
+                <a href="https://store.steampowered.com/app/1873240/Bomberrage" target="_blank" class="border-2 border-orange-500 text-orange-400 hover:bg-orange-500 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all flex items-center justify-center">
+                    <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.979 0C5.375 0 0.009 5.375 0.009 12s5.366 12 11.97 12s11.97-5.375 11.97-12S18.573 0 11.979 0zM5.793 15.947l1.853-0.759c0.143 0.295 0.374 0.54 0.666 0.701c0.718 0.397 1.633 0.134 2.04-0.587c0.407-0.721 0.134-1.633-0.587-2.04c-0.293-0.166-0.62-0.218-0.942-0.175l-1.919 0.787c-0.864 0.354-1.85-0.059-2.204-0.923c-0.355-0.865 0.058-1.851 0.923-2.205l4.067-1.667c1.729-0.709 3.715 0.119 4.424 1.848c0.709 1.73-0.119 3.716-1.848 4.425L5.793 15.947zM18.207 8.053l-1.853 0.759c-0.143-0.295-0.374-0.54-0.666-0.701c-0.718-0.397-1.633-0.134-2.04 0.587c-0.407 0.721-0.134 1.633 0.587 2.04c0.293 0.166 0.62 0.218 0.942 0.175l1.919-0.787c0.864-0.354 1.85 0.059 2.204 0.923c0.355 0.865-0.058 1.851-0.923 2.205l-4.067 1.667c-1.729 0.709-3.715-0.119-4.424-1.848c-0.709-1.73 0.119-3.716 1.848-4.425L18.207 8.053z"/>
+                    </svg>
+                    Get on Steam
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Game Features -->
+    <!-- Our Games -->
     <section id="games" class="py-20 bg-gray-800">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 studio-name">Game Features</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-900 p-8 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all hover-glow">
-                    <div class="text-4xl mb-4">🎯</div>
-                    <h3 class="text-xl font-semibold mb-4 text-orange-400">Strategic Gameplay</h3>
-                    <p class="text-gray-300">Plan your moves carefully. Every bomb placement matters in this tactical explosive experience.</p>
-                </div>
-                <div class="bg-gray-900 p-8 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all hover-glow">
-                    <div class="text-4xl mb-4">⚡</div>
-                    <h3 class="text-xl font-semibold mb-4 text-orange-400">Fast-Paced Action</h3>
-                    <p class="text-gray-300">Quick reflexes and split-second decisions determine victory in intense multiplayer battles.</p>
-                </div>
-                <div class="bg-gray-900 p-8 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all hover-glow">
-                    <div class="text-4xl mb-4">🏆</div>
-                    <h3 class="text-xl font-semibold mb-4 text-orange-400">Competitive Modes</h3>
-                    <p class="text-gray-300">Challenge players worldwide in ranked matches and climb the explosive leaderboards.</p>
+            <h2 class="text-4xl font-bold text-center mb-16 studio-name">Our Games</h2>
+            <div class="grid md:grid-cols-1 max-w-2xl mx-auto gap-8">
+                <div class="bg-gray-900 p-8 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all hover-glow cursor-pointer" onclick="window.location.href='/bomberrage'">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-4xl mb-4">💥</div>
+                            <h3 class="text-2xl font-semibold mb-4 text-orange-400">Bomberrage</h3>
+                            <p class="text-gray-300 mb-4">Experience explosive action in the ultimate bombing adventure. Strategy meets chaos in this thrilling multiplayer game.</p>
+                            <div class="flex gap-2">
+                                <span class="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">Multiplayer</span>
+                                <span class="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">Strategy</span>
+                                <span class="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm">Action</span>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-green-400 font-semibold mb-2">Available Now</div>
+                            <div class="text-sm text-gray-400">Click to play →</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Screenshots/Gallery -->
-    <section class="py-20 bg-gray-900">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 studio-name">Screenshots</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gradient-to-br from-orange-500/20 to-red-600/20 aspect-video rounded-xl flex items-center justify-center border border-orange-500/30 hover-glow cursor-pointer">
-                    <div class="text-center">
-                        <div class="text-4xl mb-2">🎮</div>
-                        <p class="text-orange-400">Gameplay Screenshot</p>
-                    </div>
-                </div>
-                <div class="bg-gradient-to-br from-orange-500/20 to-red-600/20 aspect-video rounded-xl flex items-center justify-center border border-orange-500/30 hover-glow cursor-pointer">
-                    <div class="text-center">
-                        <div class="text-4xl mb-2">🗺️</div>
-                        <p class="text-orange-400">Arena Overview</p>
-                    </div>
-                </div>
-                <div class="bg-gradient-to-br from-orange-500/20 to-red-600/20 aspect-video rounded-xl flex items-center justify-center border border-orange-500/30 hover-glow cursor-pointer">
-                    <div class="text-center">
-                        <div class="text-4xl mb-2">👥</div>
-                        <p class="text-orange-400">Multiplayer Action</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- About Studio -->
     <section id="about" class="py-20 bg-gray-800">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-4xl font-bold mb-8 studio-name">About Big Jan Games</h2>
-                <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-                    Big Jan Games is an independent game studio passionate about creating explosive entertainment experiences. 
-                    Founded with a vision to bring innovative gameplay mechanics and thrilling action to gamers worldwide, 
-                    we specialize in fast-paced, strategic games that challenge both mind and reflexes.
-                </p>
-                <div class="grid md:grid-cols-3 gap-8 mt-12">
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-orange-400 mb-2">2024</div>
-                        <p class="text-gray-300">Studio Founded</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-orange-400 mb-2">1</div>
-                        <p class="text-gray-300">Games Released</p>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-3xl font-bold text-orange-400 mb-2">∞</div>
-                        <p class="text-gray-300">Explosions Created</p>
-                    </div>
-                </div>
-            </div>
+            <div id="about-content"></div>
+            <div id="team-content"></div>
         </div>
     </section>
 
     <!-- Contact -->
     <section id="contact" class="py-20 bg-gray-900">
         <div class="container mx-auto px-6">
-            <div class="max-w-2xl mx-auto text-center">
-                <h2 class="text-4xl font-bold mb-8 studio-name">Get In Touch</h2>
-                <p class="text-xl text-gray-300 mb-12">
-                    Ready to join the explosive action? Have feedback or questions? We'd love to hear from you!
-                </p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-gray-800 p-8 rounded-xl border border-orange-500/20">
-                        <h3 class="text-xl font-semibold mb-4 text-orange-400">Community</h3>
-                        <div class="space-y-3">
-                            <a href="#" class="block hover:text-orange-400 transition-colors">Discord Server</a>
-                            <a href="#" class="block hover:text-orange-400 transition-colors">Reddit Community</a>
-                            <a href="#" class="block hover:text-orange-400 transition-colors">Twitter Updates</a>
-                        </div>
-                    </div>
-                    <div class="bg-gray-800 p-8 rounded-xl border border-orange-500/20">
-                        <h3 class="text-xl font-semibold mb-4 text-orange-400">Support</h3>
-                        <div class="space-y-3">
-                            <a href="#" class="block hover:text-orange-400 transition-colors">Bug Reports</a>
-                            <a href="#" class="block hover:text-orange-400 transition-colors">Feature Requests</a>
-                            <a href="#" class="block hover:text-orange-400 transition-colors">General Inquiries</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="contact-content"></div>
         </div>
     </section>
 
@@ -204,11 +146,10 @@
     <footer class="bg-black py-8 border-t border-orange-500/20">
         <div class="container mx-auto px-6 text-center">
             <div class="studio-name text-2xl font-bold text-orange-400 mb-4">Big Jan Games</div>
-            <p class="text-gray-400 mb-4">© 2024 Big Jan Games. All rights reserved.</p>
-            <div class="flex justify-center space-x-6">
-                <a href="#" class="text-gray-400 hover:text-orange-400 transition-colors">Privacy Policy</a>
-                <a href="#" class="text-gray-400 hover:text-orange-400 transition-colors">Terms of Service</a>
-                <a href="#" class="text-gray-400 hover:text-orange-400 transition-colors">Press Kit</a>
+            <p class="text-gray-400 mb-2">© 2024 Big Jan Games. All rights reserved.</p>
+            <p class="text-gray-500 text-sm mb-4">Independent game studio. Not affiliated with Epic Games, Inc., Steam, or Valve Corporation.</p>
+            <div class="flex justify-center">
+                <a href="/privacy-policy" class="text-gray-400 hover:text-orange-400 transition-colors">Privacy Policy</a>
             </div>
         </div>
     </footer>
@@ -238,16 +179,7 @@
             }
         });
 
-        // Interactive buttons
-        document.querySelectorAll('button').forEach(button => {
-            button.addEventListener('click', function() {
-                if (this.textContent.includes('Play Now')) {
-                    alert('🎮 Launching Bomberrage! Get ready for explosive action!');
-                } else if (this.textContent.includes('Watch Trailer')) {
-                    alert('🎬 Trailer coming soon! Follow us for updates.');
-                }
-            });
-        });
+        // No additional button functionality needed - all buttons are now functional links
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98046a5d1600a240',t:'MTc1ODA2ODE5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
