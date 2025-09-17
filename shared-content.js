@@ -4,7 +4,7 @@ const SharedContent = {
         title: "About Big Jan Games",
         description: "Big Jan Games is an independent game studio passionate about creating explosive entertainment experiences. Founded with a vision to bring innovative gameplay mechanics and thrilling action to gamers worldwide, we specialize in fast-paced, strategic games that challenge both mind and reflexes.",
         stats: [
-            { number: "2024", label: "Studio Founded" },
+            { number: "2025", label: "Studio Founded" },
             { number: "1", label: "Games Released" },
             { number: "∞", label: "Explosions Created" }
         ]
